@@ -180,7 +180,7 @@
                             </div>
                         </li>
                         <li class="menu">VỀ CHÚNG TÔI
-                            <div class="sup-menu">
+                            <div class="sup-menu" id="abst">
                                 <div class="list-menu">
                                     <ul>
                                         <li>
@@ -210,10 +210,63 @@
                         <ul>
                             <li><i class='bx bx-headphone'></i></li>
                             <li><i class='bx bx-user'></i></li>
-                            <li class="count-number"><i class='bx bx-shopping-bag'></i> <span
+                            <li class="count-number" id="countnum" style="cursor: pointer;"><i class='bx bx-shopping-bag'></i> <span
                                     class="number-shopping">0</span></li>
                         </ul>
                     </div>
+
+
+                </div>
+            </div>
+            <div class="shopping-cart-main" id="cart-shoppping-as">
+                <div class="shopping-cart-total">
+                    <div class="cart-total-name">
+                        <h3>Giỏ hàng</h3>
+                        <span>0</span>
+                    </div>
+                    <span id="close-cart"><i class='bx bx-x'></i></span>
+                </div>
+
+                <div class="shopping-cart-product">
+
+                    <div class="cart-shopping-item" style="margin-top: 20px;">
+                        <div class="img-carrt-item">
+                            <img src="https://pubcdn.ivymoda.com/files/product/thumab/400/2023/07/10/778a7d8d3b7ba47a544628048e20fa47.webp"
+                                alt="">
+                        </div>
+                        <div class="title-cart-shopping">
+                            <h5>Áo thun Flower</h5>
+                            <div class="style-cart-item">
+                                <div class="style-color-cart" style="display: flex;">
+                                    <span>Màu sắc:</span>
+                                    <p style="margin-left: 5px;">Trắng</p>
+                                </div>
+                                <div class="style-size-cart" style="display: flex;">
+                                    <span>Size:</span>
+                                    <p style="margin-left: 5px;">10-11</p>
+                                </div>
+                            </div>
+
+                            <div class="count-input">
+                                <div class="quantity">
+                                    <button class="minus" aria-label="Decrease">-</button>
+                                    <span class="value-display">1</span>
+                                    <button class="plus" aria-label="Increase">+</button>
+                                </div>
+                                <div class="total-price-quan">
+                                    50.0000đ
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="total-price-shopping">
+                    <span>Tổng cộng:</span>
+                    <h3>0đ</h3>
+                </div>
+                <div class="sign">
+                    ĐĂNG NHẬP
                 </div>
             </div>
         </div>
@@ -265,7 +318,95 @@
                     <a>New arrival</a>
                 </div>
 
+                <!-- <div class="container"> -->
                 <div class="row">
+                    <div class="col-sm-6 col-md-4 col-lg-3  data-aos=" fade-up>
+                        <div class="cart-main">
+                            <div class="carrt-image-main">
+                                <div href="#" class="image-cart-1">
+                                    <img src="images\new020.webp" alt="Ảnh 1">
+                                </div>
+                                <div href="#" class="image-cart-2">
+                                    <img src="images\new021.webp" alt="Ảnh 1">
+                                </div>
+                            </div>
+                            <div class="cart-title">
+                                <div class="style-cart">
+                                    <div class="color">
+                                        <input type="checkbox">
+                                        <input type="checkbox">
+                                    </div>
+                                    <i class='bx bx-heart'></i>
+                                </div>
+                                <h4 class="name-cart">Áo sơ mi họa tiết Eclat</h4>
+                                <div class="price-product">
+                                    <span>1.090.000<sup>đ</sup></span>
+                                    <a class="add-to-cart">
+                                        <i class='bx bx-shopping-bag'></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="item-new">NEW</div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3  data-aos=" fade-up>
+                        <div class="cart-main">
+                            <div class="carrt-image-main">
+                                <div href="#" class="image-cart-1">
+                                    <img src="images\new020.webp" alt="Ảnh 1">
+                                </div>
+                                <div href="#" class="image-cart-2">
+                                    <img src="images\new021.webp" alt="Ảnh 1">
+                                </div>
+                            </div>
+                            <div class="cart-title">
+                                <div class="style-cart">
+                                    <div class="color">
+                                        <input type="checkbox">
+                                        <input type="checkbox">
+                                    </div>
+                                    <i class='bx bx-heart'></i>
+                                </div>
+                                <h4 class="name-cart">Áo sơ mi họa tiết Eclat</h4>
+                                <div class="price-product">
+                                    <span>1.090.000<sup>đ</sup></span>
+                                    <a class="add-to-cart">
+                                        <i class='bx bx-shopping-bag'></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="item-new">NEW</div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3  data-aos=" fade-up>
+                        <div class="cart-main">
+                            <div class="carrt-image-main">
+                                <div href="#" class="image-cart-1">
+                                    <img src="images\new020.webp" alt="Ảnh 1">
+                                </div>
+                                <div href="#" class="image-cart-2">
+                                    <img src="images\new021.webp" alt="Ảnh 1">
+                                </div>
+                            </div>
+                            <div class="cart-title">
+                                <div class="style-cart">
+                                    <div class="color">
+                                        <input type="checkbox">
+                                        <input type="checkbox">
+                                    </div>
+                                    <i class='bx bx-heart'></i>
+                                </div>
+                                <h4 class="name-cart">Áo sơ mi họa tiết Eclat</h4>
+                                <div class="price-product">
+                                    <span>1.090.000<sup>đ</sup></span>
+                                    <a class="add-to-cart">
+                                        <i class='bx bx-shopping-bag'></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="item-new">NEW</div>
+                        </div>
+                    </div>
                     <div class="col-sm-6 col-md-4 col-lg-3  data-aos=" fade-up>
                         <div class="cart-main">
                             <div class="carrt-image-main">
@@ -297,6 +438,7 @@
                     </div>
 
                 </div>
+                <!-- </div> -->
 
                 <div class="see-all">
                     <h3>Xem tất cả</h3>
@@ -434,7 +576,7 @@
                             </li>
                         </ul>
                         <div class="hotline">
-                            <a href="tel:02466623434">HOTLINE: 0333 262 319</a>
+                            <a href="tel:0333 262 319">HOTLINE: 0333 262 319</a>
                         </div>
                     </div>
                 </div>
@@ -488,19 +630,16 @@
                         <h5>Liên hệ</h5>
                         <ul>
                             <li>
-                                <a href="#">Hotline</a>
+                                <a href="0333 262 319">Hotline</a>
                             </li>
                             <li>
-                                <a href="#">Email</a>
+                                <a href="https://mail.google.com" target="_blank">Email</a>
                             </li>
                             <li>
                                 <a href="#">Live Chat</a>
                             </li>
                             <li>
                                 <a href="#">Messenger</a>
-                            </li>
-                            <li>
-                                <a href="#">Liên hệ</a>
                             </li>
                         </ul>
                     </div>
