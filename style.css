@@ -25,11 +25,8 @@ ul {
 }
 
 .container-main {
-<<<<<<< HEAD
     max-width: 1510px;
-=======
     max-width: 90%;
->>>>>>> 17e45d90178d207029ee679e90366e79100ac5bc
     margin: 0 auto;
     padding: 0 15px;
 }
