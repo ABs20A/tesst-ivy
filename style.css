@@ -25,7 +25,11 @@ ul {
 }
 
 .container-main {
+<<<<<<< HEAD
     max-width: 1510px;
+=======
+    max-width: 90%;
+>>>>>>> 17e45d90178d207029ee679e90366e79100ac5bc
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -91,7 +95,7 @@ img.logo {
     gap: 100px;
 }
 
-.search button {
+.button-search {
     height: 40px;
     width: 40px;
     border: none;
@@ -101,6 +105,9 @@ img.logo {
     background: none;
     cursor: pointer;
     font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .account ul {
@@ -183,7 +190,7 @@ swiper-container.mySwiper {
     -ms-transition: all 0.3s ease-in-out 0s;
 }
 
-img.slider {
+.slider-img {
     border-top-left-radius: 90px;
     border-bottom-right-radius: 90px;
 }
@@ -560,7 +567,7 @@ h2{
 }
 
 
-/* Sản Phẩm */
+/*Danh Sách Sản Phẩm */
 
 
 .product-main{
@@ -757,4 +764,17 @@ h2{
   }
   
 
+
+/* Sản Phẩm */
+.product-img {
+    width: 38%;
+    height: auto;   
+    margin: 0 15px;
+}
+
+.list-product-img{
+    width: 8%;
+}
+
+.swiper-wrapper{}
 
